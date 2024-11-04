@@ -8,10 +8,15 @@ header {
 }
 
 /*Margin stuff*/
-p:first-of-type {
+section.indents p {
+    text-indent: 4em;
+}
+
+section.indents p:first-of-type {
     text-indent: 0;
 }
 
-p {
+section.margins p {
     margin-bottom: 1em;
 }
+/*I cant tell what the code is doing. im gonna try indents and see if its more obvious*/
