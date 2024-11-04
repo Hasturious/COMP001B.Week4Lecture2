@@ -1,0 +1,17 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+}
+
+/*Margin stuff*/
+p:first-of-type {
+    text-indent: 0;
+}
+
+p {
+    margin-bottom: 1em;
+}
