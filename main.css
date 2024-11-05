@@ -2,12 +2,18 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-header {
+h1 {
     font-family: "Oswald", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 /*Margin stuff*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 section.indents p {
     text-indent: 4em;
 }
@@ -19,4 +25,12 @@ section.indents p:first-of-type {
 section.margins p {
     margin-bottom: 1em;
 }
-/*I cant tell what the code is doing. im gonna try indents and see if its more obvious*/
+
+p {
+    line-height: 140%;
+}
+
+section {
+    border: black 2px dashed;
+    margin: 15px;
+}
